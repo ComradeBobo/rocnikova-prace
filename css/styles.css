@@ -1,0 +1,65 @@
+
+main {
+    border: 2px rgb(0, 0, 0) solid;
+        border-radius: 5px;
+        background-image: linear-gradient(160deg, #454a4e, #494a50);
+        text-align: left;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 20px;
+}
+h1 {
+     text-align: center;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(160deg, #454a4e, #494a50);
+
+
+
+}
+.hero-image {
+  background-image: url(../img/BG.jpg);
+  background-color: #cccccc;
+  height: 1080px;
+  width: 1280x;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -150px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+iframe {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+footer {
+    text-align: center;
+}
+.galery {
+    text-align: center;
+    position: relative;
+}
