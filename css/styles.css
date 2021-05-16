@@ -1,15 +1,17 @@
 
 main {
     border: 2px rgb(0, 0, 0) solid;
-        border-radius: 5px;
         background-image: linear-gradient(160deg, #454a4e, #494a50);
         text-align: left;
         position: absolute;
-        top: 75%;
+        top: 79%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
 }
 h1 {
      text-align: center;
@@ -24,9 +26,9 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   background-image: linear-gradient(160deg, #454a4e, #494a50);
-
-
-
+}
+h2 {
+  color: black;
 }
 .hero-image {
   background-image: url(../img/BG.jpg);
@@ -58,8 +60,21 @@ iframe {
 }
 footer {
     text-align: center;
+    color:white;
+    background-image: linear-gradient(160deg, #454a4e, #494a50);
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .galery {
     text-align: center;
     position: relative;
+}
+.ftext {
+  text-align: center;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.box {
+margin: 1%;
 }
