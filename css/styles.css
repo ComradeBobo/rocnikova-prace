@@ -62,18 +62,12 @@ footer {
     text-align: center;
     color:white;
     background-image: linear-gradient(160deg, #454a4e, #494a50);
-    padding-top: 1%;
     padding-bottom: 1%;
+    margin-top: 1%;
 }
 .galery {
     text-align: center;
     position: relative;
-}
-.ftext {
-  text-align: center;
-  color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 .box {
 margin: 1%;

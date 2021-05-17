@@ -5,12 +5,15 @@
   <title>Úvodní stránka</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="../rocnikova-prace/css/styles.css">
+  <link rel="stylesheet" href="../rocnikova-prace/dist/css/lightbox.min.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../rocnikova-prace/css/styles.css">
 
 </head>
 
@@ -26,12 +29,11 @@
     <h1>World of Tanks Guideline</h1>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <ul class="navbar-nav justify-content-center">
+        <div class="navbar-brand">
+          <img src="../rocnikova-prace/img/wotlog.png" alt="logo" style="width:40px;">
+        </div>
         <li class="nav-item dropdown">
-          <div>
-
-          </div>
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Technologické stromy</a>
-
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Německo</a>
             <a class="dropdown-item" href="#">SSSR</a>
@@ -46,12 +48,13 @@
             <a class="dropdown-item" href="#">Itálie</a>
           </div>
         </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Vybavení</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Schopnosti posádky</a>
-            </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vybavení</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Schopnosti posádky</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Mapy</a>
           <div class="dropdown-menu">
@@ -79,7 +82,8 @@
         využít.
       </li>
       <li>
-        Schopnsosti posádky - Zde se dozvíte něco o schopnostech každého člena Vaší posádky a také to, jaké schopnosti by jste měli svou posádku určitě naučit.
+        Schopnsosti posádky - Zde se dozvíte něco o schopnostech každého člena Vaší posádky a také to, jaké schopnosti
+        by jste měli svou posádku určitě naučit.
       </li>
       <li>
         Mapy - Zde se dozvíte potřebné informace o mapách, taktiky, oblíbené pozice kam jezdit, a také se v této části
@@ -101,72 +105,96 @@
           <li data-target="#demo" data-slide-to="4"></li>
           <li data-target="#demo" data-slide-to="5"></li>
         </ul>
-        <div class="carousel-inner">
+        <div id="center-coruse1" class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../rocnikova-prace/img/operace.png" alt="Operace WoT" width="980" height="500">
+            <a data-lightbox="fotogalerie" href="./img/operace.png">
+              <img src="./img/operace.png" alt="Operace ve WoT" width="980" height="500">
+            </a>
             <div class="carousel-caption">
               <h3>Seznam operací ve WoT</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../rocnikova-prace/img/garaz1.png" alt="Garáž WoT" width="980" height="500">
+            <a data-lightbox="fotogalerie" href="./img/garaz1.png">
+              <img src="./img/garaz1.png" alt="Garaz ve Hre" width="980" height="500">
+            </a>
             <div class="carousel-caption">
               <h3>Garáž ve hře</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../rocnikova-prace/img/sssr.png" alt="USSR Tech tree" width="980" height="500">
+            <a data-lightbox="fotogalerie" href="./img/sssr.png">
+              <img src="./img/sssr.png" alt="USSR tech tree" width="980" height="500">
+            </a>
             <div class="carousel-caption">
               <h3>Technologický strom SSSR</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../rocnikova-prace/img/sluzzaz.png" alt="Služební záznam WoT" width="980" height="500">
+            <a data-lightbox="fotogalerie" href="./img/sluzzaz.png">
+              <img src="./img/sluzzaz.png" alt="Služební záznam" width="980" height="500">
+            </a>
             <div class="carousel-caption">
               <h3>Služební záznam WoT</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../rocnikova-prace/img/arty.jpg" alt="Dělostřelectvo" width="980" height="500">
+            <a data-lightbox="fotogalerie" href="./img/arty.jpg">
+              <img src="./img/arty.jpg" alt="Arty" width="980" height="500">
+            </a>
             <div class="carousel-caption">
               <h3>Dělostřelectvo</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../rocnikova-prace/img/FV.jpg" alt="FV4005" width="980" height="500">
+            <a data-lightbox="fotogalerie" href="./img/FV.jpg">
+              <img src="./img/FV.jpg" alt="FV4005" width="980" height="500">
+            </a>
             <div class="carousel-caption">
               <h3>Britský stíhač tanků FV4005</h3>
             </div>
           </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </div>
-  </div>
 
-  <footer>
-    <div class="ftext">
-      <p>&copy; 2021 - IT1 - Robin Harazim</p>
-    </div>
-  </footer>
+       <footer>
+        <nav class="navbar navbar-expand-lg justify-content-center">
+          <ul class="navbar-nav justify-content-center">
+            <a class="navbar-brand" href="https://worldoftanks.eu/cs/" target="_blank">
+              <img src="../rocnikova-prace/img/wotlog.png" alt="logo" style="width:80px;">
+            </a>
+            <a class="navbar-brand" href="https://www.youtube.com/channel/UCh554z2-7vIA-Mf9qAameoA" target="_blank">
+              <img src="../rocnikova-prace/img/ytb1.png" alt="logo" style="width: 80px; ">
+            </a>
+          </a>
+          <a class="navbar-brand" href="https://www.facebook.com/WorldOfTanks.CZ" target="_blank">
+            <img src="../rocnikova-prace/img/f2.png" alt="logo" style="width: 80px; ">
+          </a>
+          </ul>
+        </nav>
+        <p>
+          &copy; 2021 - IT1 - Robin Harazim
+        </p>
+      </footer>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="../rocnikova-prace/dist/js/lightbox-plus-jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
