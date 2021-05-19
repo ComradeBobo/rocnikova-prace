@@ -1,64 +1,7 @@
-
 main {
-border: 2px rgb(0, 0, 0) solid;
-background-image: linear-gradient(160deg, #454a4ea4, #494a50b7);
-text-align: left;
-color: white;
-padding: 10px;
-margin-bottom: 1%;
-margin-top: 5%;
-margin-left: 20%;
-margin-right: 20%;
-}
-h1 {
-text-align: center;
-color: white;
-background-image: linear-gradient(160deg, #454a4e, #494a50);
-border: 2px rgb(0, 0, 0) solid;
-padding-top: 10px;
-padding-bottom: 10px;
-
-}
-h2 {
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 3%;
-
-}
-body {
-  background-image: url(../img/b7.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-
-}
-footer {
     text-align: center;
-    color:white;
-    background-image: linear-gradient(160deg, #454a4e, #494a50);
-    padding-bottom: 1%;
-    padding-top: 3%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
-.galery {
-    text-align: center;
-}
-iframe {
-  margin-top: 5%;
-}
-@media only screen and (max-width: 1200px) {
-
-
-  iframe {
-      width: 60%;
-    }
-  .imgsliders {
-      width: 60%;
-      height: 80%;
-  } 
-  #asd {
-      margin-top: -44%;
-  }
+p {
+    font-size: medium;
 }

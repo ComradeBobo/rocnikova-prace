@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="../rocnikova-prace/css/styles.css">
+  <link rel="stylesheet" href="../rocnikova-prace/css/uvod.css">
   <link rel="stylesheet" href="../rocnikova-prace/dist/css/lightbox.min.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
@@ -24,60 +24,55 @@
       <div class="navbar-brand">
         <img src="../rocnikova-prace/img/wotlog.png" alt="logo" style="width:40px;">
       </div>
+      <li class="nav-item">
+        <a class="nav-link" href="../rocnikova-prace/index.html">Úvod</a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Technologické stromy</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Německo</a>
-          <a class="dropdown-item" href="#">SSSR</a>
-          <a class="dropdown-item" href="#">USA</a>
-          <a class="dropdown-item" href="#">UK</a>
-          <a class="dropdown-item" href="#">Francie</a>
-          <a class="dropdown-item" href="#">Čína</a>
-          <a class="dropdown-item" href="#">Japonsko</a>
-          <a class="dropdown-item" href="#">Československo</a>
-          <a class="dropdown-item" href="#">Polsko</a>
-          <a class="dropdown-item" href="#">Švédsko</a>
-          <a class="dropdown-item" href="#">Itálie</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/germany.html">Německo</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/ussr.html">SSSR</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/usa.html">USA</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/uk.html">UK</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/france.html">Francie</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/china.html">Čína</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/japan.html">Japonsko</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/czechoslovakia.html">Československo</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/poland.html">Polsko</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/sweden.html">Švédsko</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/tech_tree/italy.html">Itálie</a>
         </div>
       </li>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Vybavení</a>
+        <a class="nav-link" href="../rocnikova-prace/html/equipment/equipment.html">Vybavení</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Schopnosti posádky</a>
+        <a class="nav-link" href="../rocnikova-prace/html/crew_skills/crew_skills.html">Schopnosti posádky</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Mapy</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Letní</a>
-          <a class="dropdown-item" href="#">Zimní</a>
-          <a class="dropdown-item" href="#">Pouštní</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/maps/summer.html">Letní</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/maps/winter.html">Zimní</a>
+          <a class="dropdown-item" href="../rocnikova-prace/html/maps/desert.html">Pouštní</a>
         </div>
       </li>
     </ul>
   </nav>
 
   <header>
-<div class="row">
-  <div class="container col-sm12">
     <h1>World of Tanks Guideline</h1>
-  </div>
-</div>
-        
   </header>
 
-  <figure class="container">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="720" height="480" src="https://www.youtube.com/embed/ffm1o-ilLwA" title="YouTube video player"
+  <div class="center">
+    <iframe width="960" height="480" src="https://www.youtube.com/embed/ffm1o-ilLwA" title="YouTube video player"
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
-    </div>
-  </figure>
-
+  </div>
+      
   <main>
-    <div class="row">
-      <div class="container col-sm12">
+
         <h3 class="text-center">Co se zde dozvíte?</h3>
         <p>Tato stránka je určená jak pro pro nováčky, kteří se hrou teprve začínají, tak i pro zkušenější hráče, kteří
           se
@@ -98,14 +93,10 @@
           Mapy - Zde se dozvíte potřebné informace o mapách, taktiky, oblíbené pozice kam jezdit, a také se v této části
           dozvíte něco málo o maskování svého vozidla.
         </li>
-      </div>
-    </div>
-
   </main>
 
   <footer>
-    <div class="row">
-      <div class="container col-sm-12">
+
         <h2>Fotogalerie</h2>
 
         <div class="galery">
@@ -122,7 +113,7 @@
               <div id="center-coruse1" class="carousel-inner">
                 <div class="carousel-item active">
                   <a data-lightbox="fotogalerie" href="./img/operace.png">
-                    <img src="./img/operace.png" alt="Operace ve WoT" width="980" height="500">
+                    <img class="imgsliders" src="./img/operace.png" alt="Operace ve WoT" width="980" height="500">
                   </a>
                   <div class="carousel-caption">
                     <h3>Seznam operací ve WoT</h3>
@@ -130,7 +121,7 @@
                 </div>
                 <div class="carousel-item">
                   <a data-lightbox="fotogalerie" href="./img/garaz1.png">
-                    <img src="./img/garaz1.png" alt="Garaz ve Hre" width="980" height="500">
+                    <img class="imgsliders" src="./img/garaz1.png" alt="Garaz ve Hre" width="980" height="500">
                   </a>
                   <div class="carousel-caption">
                     <h3>Garáž ve hře</h3>
@@ -138,7 +129,7 @@
                 </div>
                 <div class="carousel-item">
                   <a data-lightbox="fotogalerie" href="./img/sssr.png">
-                    <img src="./img/sssr.png" alt="USSR tech tree" width="980" height="500">
+                    <img class="imgsliders" src="./img/sssr.png" alt="USSR tech tree" width="980" height="500">
                   </a>
                   <div class="carousel-caption">
                     <h3>Technologický strom SSSR</h3>
@@ -146,7 +137,7 @@
                 </div>
                 <div class="carousel-item">
                   <a data-lightbox="fotogalerie" href="./img/sluzzaz.png">
-                    <img src="./img/sluzzaz.png" alt="Služební záznam" width="980" height="500">
+                    <img class="imgsliders" src="./img/sluzzaz.png" alt="Služební záznam" width="980" height="500">
                   </a>
                   <div class="carousel-caption">
                     <h3>Služební záznam WoT</h3>
@@ -154,7 +145,7 @@
                 </div>
                 <div class="carousel-item">
                   <a data-lightbox="fotogalerie" href="./img/arty.jpg">
-                    <img src="./img/arty.jpg" alt="Arty" width="980" height="500">
+                    <img class="imgsliders" src="./img/arty.jpg" alt="Arty" width="980" height="500">
                   </a>
                   <div class="carousel-caption">
                     <h3>Dělostřelectvo</h3>
@@ -162,7 +153,7 @@
                 </div>
                 <div class="carousel-item">
                   <a data-lightbox="fotogalerie" href="./img/FV.jpg">
-                    <img src="./img/FV.jpg" alt="FV4005" width="980" height="500">
+                    <img class="imgsliders" src="./img/FV.jpg" alt="FV4005" width="980" height="500">
                   </a>
                   <div class="carousel-caption">
                     <h3>Britský stíhač tanků FV4005</h3>
@@ -178,8 +169,7 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>  
+   
         <nav class="navbar navbar-expand-lg justify-content-center">
           <ul class="navbar-nav justify-content-center">
             <a class="navbar-brand" href="https://worldoftanks.eu/cs/" target="_blank">
@@ -198,6 +188,7 @@
           &copy; 2021 - IT1 - Robin Harazim
         </p>
       </div>
+
   </footer>
 
   <!-- Optional JavaScript -->
