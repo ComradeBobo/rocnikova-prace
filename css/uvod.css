@@ -1,15 +1,11 @@
 
 main {
-border: 2px rgb(0, 0, 0) solid;
-background-image: linear-gradient(160deg, #454a4ea4, #494a50b7);
-text-align: left;
-color: white;
-padding: 15px;
-margin-bottom: 1%;
-margin-top: 5%;
-margin-left: 5%;
-margin-right: 5%;
-font-size: larger;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.534);
+  padding-bottom: 20px;
 }
 h1 {
 text-align: center;
@@ -26,14 +22,12 @@ h2 {
   padding-top: 10px;
   padding-bottom: 3%;
 
-}
-body {
-  background-image: url(../img/b7.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
+}body {
+  background-image: url(../img/bckgS.jpg);
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   height: 100%;
-
 }
 footer {
     text-align: center;
