@@ -1,6 +1,5 @@
 
 main {
-  text-align: center;
   margin-left: 15%;
   margin-right: 15%;
   color: white;
@@ -14,6 +13,8 @@ background-image: linear-gradient(160deg, #454a4e, #494a50);
 border: 2px rgb(0, 0, 0) solid;
 padding-top: 10px;
 padding-bottom: 10px;
+margin-left: 15%;
+margin-right: 15%;
 
 }
 h2 {
@@ -23,8 +24,8 @@ h2 {
   padding-bottom: 3%;
 
 }body {
-  background-image: url(../img/bckgS.jpg);
-  background-position: center;
+  background-image: url(../img/7.jpg);
+  background-position: top;
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
@@ -79,7 +80,9 @@ iframe {
 }
 .center {
   text-align:center;
-  width:100%;
-  top: 25%;
+  width: 100%;
   position: relative;
+}
+p {
+  padding-left: 20px;
 }
