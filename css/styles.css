@@ -1,14 +1,16 @@
 main {
-    text-align: center;
+    text-align: left;
     margin-top: 3%;
     margin-left: 15%;
     margin-right: 15%;
     color: white;
     background-color: rgba(0, 0, 0, 0.534);
+    padding-bottom: 40px;
 }
 p {
     font-size: large;
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 body {
     background-image: url(../img/bckgS.jpg);
@@ -29,6 +31,14 @@ body {
     padding: 10px;
     background-image: linear-gradient(160deg, #2c2d2ece, #0000009f);
   }
+  h4 {
+    text-align: left;
+    border-top: black solid 3px;
+    padding-left: 10px;
+  }
+  h5 {
+    padding-left: 10px;
+  }
   table {
       text-align: center;
       margin-left: 15%;
@@ -46,3 +56,13 @@ body {
   .odkaz {
     color: white;
   }
+  .odkazy{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+a.footerodkazy{
+  color: rgb(0, 202, 202)!important;
+}
+a.footerodkazy:hover{
+  color: aqua!important;
+}
