@@ -1,64 +1,213 @@
 <!doctype html>
 <html lang="cs">
-  <head>
-    <title>Pouštní Mapy</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../../css/styles.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <ul class="navbar-nav justify-content-center">
-          <div class="navbar-brand">
-            <img src="../../img/wotlog.png" alt="logo" style="width:40px;">
-          </div>
-          <li class="nav-item">
-            <a class="nav-link" href="../../index.html">Úvod</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Technologické stromy</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="../../html/tech_tree/germany.html">Německo</a>
-              <a class="dropdown-item" href="../../html/tech_tree/ussr.html">SSSR</a>
-              <a class="dropdown-item" href="../../html/tech_tree/usa.html">USA</a>
-              <a class="dropdown-item" href="../../html/tech_tree/uk.html">UK</a>
-              <a class="dropdown-item" href="../../html/tech_tree/france.html">Francie</a>
-              <a class="dropdown-item" href="../../html/tech_tree/china.html">Čína</a>
-              <a class="dropdown-item" href="../../html/tech_tree/japan.html">Japonsko</a>
-              <a class="dropdown-item" href="../../html/tech_tree/czechoslovakia.html">Československo</a>
-              <a class="dropdown-item" href="../../html/tech_tree/poland.html">Polsko</a>
-              <a class="dropdown-item" href="../../html/tech_tree/sweden.html">Švédsko</a>
-              <a class="dropdown-item" href="../../html/tech_tree/italy.html">Itálie</a>
+<head>
+  <title>WoT Kvíz</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../../css/kviz.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="icon" href="../../img/wotlog.png" type="image/png" sizes="50x50">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <ul class="navbar-nav justify-content-center">
+      <div class="navbar-brand">
+        <img src="../../img/wotlog.png" alt="logo" style="width:40px;">
+      </div>
+      <li class="nav-item">
+        <a class="nav-link" href="../../index.html">Úvod</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Technologické stromy</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="../../html/tech_tree/germany.html">Německo</a>
+          <a class="dropdown-item" href="../../html/tech_tree/ussr.html">SSSR</a>
+          <a class="dropdown-item" href="../../html/tech_tree/usa.html">USA</a>
+          <a class="dropdown-item" href="../../html/tech_tree/uk.html">UK</a>
+          <a class="dropdown-item" href="../../html/tech_tree/france.html">Francie</a>
+          <a class="dropdown-item" href="../../html/tech_tree/china.html">Čína</a>
+          <a class="dropdown-item" href="../../html/tech_tree/japan.html">Japonsko</a>
+          <a class="dropdown-item" href="../../html/tech_tree/czechoslovakia.html">Československo</a>
+          <a class="dropdown-item" href="../../html/tech_tree/poland.html">Polsko</a>
+          <a class="dropdown-item" href="../../html/tech_tree/sweden.html">Švédsko</a>
+          <a class="dropdown-item" href="../../html/tech_tree/italy.html">Itálie</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../html/equipment/equipment.html">Vybavení</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../html/crew_skills/crew_skills.html">Schopnosti posádky</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../html/kviz/kviz.html">Kvíz</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <H1>Kvíz</H1>
+  </header>
+  
+    <main class="container">
+      <div id="center-text" class="col-lg-8 col-md-10 col-sm-12">
+        <form action="" method="POST">
+          <p class="alert alert-dark otazka">1. Nachází se ve hře také Československé tanky ? </p>
+          <div class="form-group row">
+            <label for="" class="col-sm-3 col-form-label">Odpověď:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="odpoved" id="odpoved" placeholder="Odpovězte Ano/Ne">
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../html/equipment/equipment.html">Vybavení</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../html/crew_skills/crew_skills.html">Schopnosti posádky</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../html/kviz/kviz.html">Kvíz</a>
-          </li>
-        </ul>
-      </nav>
-      <main>
-          <img src="../../img/Work_In_Progress.png" alt="Work in progress">
-
-          <h2>Je tady nějak prázdno</h2>
-          <p>
-              Naši nejlepší experti však na této stránce již pracují.
+          </div>
+          <p class="alert alert-success odpoved collapse">Ano</p>
+          <hr>
+          <p class="alert alert-dark otazka">2. Ve kterém roce vyšlo World of Tanks?</p>
+          <div class="form-group row">
+            <label for="univerzita" class="col-sm-3 col-form-label">Rok vydání</label>
+            <div class="col-sm-3">
+              <input type="number" class="form-control" name="rok" min="2000" max="2020" id="rok" value="2005">
+            </div>
+          </div>
+          <p class="alert alert-success odpoved collapse">2010</p>
+          <hr>
+          <p class="alert alert-dark otazka">3. Která společnost stojí za hrou World of Tanks?</p>
+          <div class="form-group row">
+            <label for="vydavatel" class="col-sm-3 col-form-label">Společnost:</label>
+            <div class="col-sm-3">
+              <select class="form-control" name="spolecnost" id="spolecnost">
+                <option>Riot Games</option>
+                <option>Wargaming.net</option>
+                <option selected>Erik corporated</option>
+                <option>Valve</option>
+              </select>
+            </div>
+          </div>
+          <p class="alert alert-success odpoved collapse">Wargaming.net</p>
+          <hr>
+          <p class="alert alert-dark otazka">4. Kolik národů se ve hře nachází?</p>
+          <div class="form-group row">
+            <label for="vydavatel" class="col-sm-3 col-form-label">Počet národů:</label>
+            <div class="col-sm-3">
+              <select class="form-control" name="pocet" id="pocet">
+                <option>13</option>
+                <option>10</option>
+                <option selected>14</option>
+                <option>11</option>
+              </select>
+            </div>
+          </div>
+          <p class="alert alert-success odpoved collapse">11</p>
+          <hr>
+          <p class="alert alert-dark otazka">5. Který národ má ve hře nejvíce tanků ?
           </p>
-      </main>
+          <div class="form-group row">
+            <label for="karta" class="col-md-3 col-form-label">Odpověď:</label>
+            <div class="col-md-9">
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="karty" id="sssr" value="checkedValue">
+                  SSSR
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="karty" id="usa" value="checkedValue">
+                  USA
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="karty" id="nemecko" value="checkedValue">
+                  Německo
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="karty" id="uk" value="checkedValue">
+                  UK
+                </label>
+              </div>
+            </div>
+          </div>
+          <p class="alert alert-success odpoved collapse">SSSR</p>
+          <hr>
+          <p class="alert alert-dark otazka">6. Například které národy mají třídu Dělostřelectvo?</p>
+          <div class="form-group row">
+            <label for="delostrelectvo" class="col-md-3 col-form-label">Národy s dělostřelectvem:</label>
+            <div class="col-md-9">
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="francie" id="francie" value="Francie">Francie
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="svedsko" id="svedsko" value="Švédsko">Švédsko
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="italie" id="italie" value="Itálie">Itálie
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="nemecko" id="nemecko" value="Německo">Německo
+                </label>
+              </div>
+            </div>
+          </div>
+          <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved4">Německo , Francie
+          </p>
+          </p>
+          <hr>
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".odpoved">Vyhodnotit
+                kvíz</button>
+            </div>
+          </div>
+        </form>
+      </div>
       
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    </main>
+
+  <footer class="container-fluid bg-dark p-3 mt-5">
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-12 p-2 text-center">
+        <i class="fa fa-code fa-3x text-white" aria-hidden="true"></i>
+        <p class="text-white">© Robin Harazim - IT1 2021</p>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-12 p-2 border-left border-right"><img src="../../img/wotlog.png" alt="WoT"
+          height="75" class="mx-auto d-block footerimage"></div>
+      <div class="col-xl-4 col-lg-4 col-md-12 p-2 text-center odkazy">
+        <a href="https://www.youtube.com/channel/UCh554z2-7vIA-Mf9qAameoA" target="_blank" class="footerodkazy"><i
+            class="fa fa-youtube-play fa-3x pr-3" aria-hidden="true"></i></a><a href="https://worldoftanks.eu/cs/"
+          target="_blank" class="footerodkazy"><i class="fa fa-globe fa-3x pr-3" aria-hidden="true"></i></a><a
+          href="https://worldoftanks.eu/cs/game/download/" target="_blank" class="footerodkazy"><i
+            class="fa fa-download fa-3x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

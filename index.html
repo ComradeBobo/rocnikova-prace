@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="../rocnikova-prace/css/uvod.css">
   <link rel="stylesheet" href="../rocnikova-prace/dist/css/lightbox.min.css">
+  <link rel="icon" href="../rocnikova-prace/img/wotlog.png" type="image/png" sizes="50x50">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
@@ -87,10 +88,8 @@
             </li>
           </ul>
   </main>
-
-  <footer>
-
-        <h2>Fotogalerie</h2>
+  <footer class="container-fluid bg-dark p-3 mt-5">
+      <h2>Fotogalerie</h2>
 
         <div class="galery">
           <div class="container-fluid bg-dark text-secondary p-3">
@@ -162,25 +161,33 @@
             </div>
           </div>
         </div>
-   
-        <nav class="navbar navbar-expand-lg justify-content-center">
-          <div class="navbar-nav justify-content-center">
-            <a class="navbar-brand" href="https://worldoftanks.eu/cs/" target="_blank">
-              <img src="../rocnikova-prace/img/wotlog.png" alt="logo" style="width:80px;">
-            </a>
-            <a class="navbar-brand" href="https://www.youtube.com/channel/UCh554z2-7vIA-Mf9qAameoA" target="_blank">
-              <img src="../rocnikova-prace/img/ytb1.png" alt="logo" style="width: 80px; ">
-            </a>
-            <a class="navbar-brand" href="https://www.facebook.com/WorldOfTanks.CZ" target="_blank">
-              <img src="../rocnikova-prace/img/f2.png" alt="logo" style="width: 80px; ">
-            </a>
-          </div>
-        </nav>
-        <p>
-          &copy; 2021 - IT1 - Robin Harazim
-        </p>
-
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-12 p-2 text-center">
+        <i class="fa fa-code fa-3x text-white" aria-hidden="true"></i>
+        <p class="text-white">© Robin Harazim - IT1 2021</p>
+      </div>
+      <div
+          class="col-xl-4 col-lg-4 col-md-12 p-2 border-left border-right"
+        ><img src="../rocnikova-prace/img/wotlog.png" alt="WoT" height="75" class="mx-auto d-block footerimage"></div>
+        <div class="col-xl-4 col-lg-4 col-md-12 p-2 text-center odkazy">
+          <a
+            href="https://www.youtube.com/channel/UCh554z2-7vIA-Mf9qAameoA"
+            target="_blank"
+            class="footerodkazy"
+            ><i class="fa fa-youtube-play fa-3x pr-3" aria-hidden="true"></i></a
+          ><a href="https://worldoftanks.eu/cs/" target="_blank" class="footerodkazy"
+            ><i class="fa fa-globe fa-3x pr-3" aria-hidden="true"></i></a
+          ><a
+            href="https://worldoftanks.eu/cs/game/download/"
+            target="_blank"
+            class="footerodkazy"
+            ><i class="fa fa-download fa-3x" aria-hidden="true"></i
+          ></a>
+        </div>
+    </div>
+    </div>
   </footer>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

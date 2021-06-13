@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(160deg, #454a4e, #494a50);
+    border: 2px rgb(0, 0, 0) solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+body {
+     background-image: url(../img/bckgS.jpg);
+     background-position: center;
+     background-attachment: fixed;
+    background-size: cover;
+     height: 100%;
+ }
+ main {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+ a.footerodkazy{
+     color: rgb(255, 0, 0)!important;
+}
+ a.footerodkazy:hover{
+    color: rgb(136, 0, 11)!important;
+ }
+ .odkazy{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#center-text {
+    margin: 0 auto;
+}

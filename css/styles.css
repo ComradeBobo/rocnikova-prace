@@ -19,6 +19,16 @@ body {
     background-size: cover;
     height: 100%;
   }
+  h1 {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(160deg, #454a4e, #494a50);
+    border: 2px rgb(0, 0, 0) solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
   h2 {
       border: 3px solid black;
       text-align: center;
@@ -61,8 +71,50 @@ body {
     margin-bottom: auto;
 }
 a.footerodkazy{
-  color: rgb(0, 202, 202)!important;
+  color: rgb(255, 0, 0)!important;
 }
 a.footerodkazy:hover{
-  color: aqua!important;
+  color: rgb(136, 0, 11)!important;
+}
+.box {
+  background-image: linear-gradient(160deg, #2c2d2ece, #0000009f);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin: 20px;
+  width: 329px;
+  float: left;
+}
+.box1 {
+  background-image: linear-gradient(160deg, #2c2d2ece, #0000009f);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bruh {
+  text-align: center;
+  color: white;
+}
+.card-header {
+  background-color: rgb(78, 78, 78) !important;
+}
+#collapseOne {
+  background-color: rgb(0, 0, 0) !important;
+}
+#collapseTwo {
+  background-color: rgb(0, 0, 0) !important;
+}
+#collapseThree {
+  background-color: rgb(0, 0, 0) !important;
+}
+#collapseFour {
+  background-color: rgb(0, 0, 0) !important;
+}
+#collapseFive {
+  background-color: rgb(0, 0, 0) !important;
+}
+#collapseSix {
+  background-color: rgb(0, 0, 0) !important;
 }
