@@ -9,7 +9,7 @@ h1 {
     margin-right: 15%;
  }
 body {
-     background-image: url(../img/bckgS.jpg);
+     background-image: url(../img/7.jpg);
      background-position: center;
      background-attachment: fixed;
     background-size: cover;
@@ -36,4 +36,7 @@ body {
 }
 #center-text {
     margin: 0 auto;
+}
+p {
+    font-size: large;
 }

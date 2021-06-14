@@ -55,7 +55,6 @@ body {
       margin-right: 15%;
       margin-top: 5%;
       border: 3px solid black;
-      height: auto;
   }
   td, th {
     border: 3px solid black;
@@ -77,20 +76,10 @@ a.footerodkazy{
 a.footerodkazy:hover{
   color: rgb(136, 0, 11)!important;
 }
-.obrazek {
+img {
   float: right;
+  margin-left: 10px;
   margin-right: 15px;
-  margin-top: -2%;
-}
-.ikonka {
-  float: left;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.responsive {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
 }
 .box {
   background-image: linear-gradient(160deg, #2c2d2ece, #0000009f);
