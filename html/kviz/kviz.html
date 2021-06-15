@@ -6,6 +6,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="World of Tanks jednoduchý kvíz">
+  <meta name="keywords" content="World of Tanks, kvíz">
   <link rel="stylesheet" href="../../css/kviz.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="icon" href="../../img/wotlog.png" type="image/png" sizes="50x50">
@@ -57,30 +59,30 @@
 
   <main class="container">
     <div id="center-text" class="col-lg-8 col-md-10 col-sm-12">
-      <form action="" method="POST">
+      <form method="POST">
         <p class="alert alert-dark otazka">1. Nachází se ve hře také Československé tanky ? </p>
         <div class="form-group row">
-          <label for="" class="col-sm-3 col-form-label">Odpověď:</label>
+          <label for="q1" class="col-sm-3 col-form-label">Odpověď:</label>
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="odpoved" id="odpoved" placeholder="Odpovězte Ano/Ne">
+            <input type="text" class="form-control" name="odpoved" id="q1" placeholder="Odpovězte Ano/Ne">
           </div>
         </div>
         <p class="alert alert-success odpoved collapse">Ano</p>
         <hr>
         <p class="alert alert-dark otazka">2. Ve kterém roce vyšlo World of Tanks?</p>
         <div class="form-group row">
-          <label for="rok_vydani" class="col-sm-4 col-form-label">Rok vydání</label>
+          <label for="q2" class="col-sm-4 col-form-label">Rok vydání</label>
           <div class="col-sm-4">
-            <input type="number" class="form-control" name="rok" min="2000" max="2020" id="rok" value="2005">
+            <input type="number" class="form-control" name="rok" min="2000" max="2020" id="q2" value="2005">
           </div>
         </div>
         <p class="alert alert-success odpoved collapse">2010</p>
         <hr>
         <p class="alert alert-dark otazka">3. Která společnost stojí za hrou World of Tanks?</p>
         <div class="form-group row">
-          <label for="vydavatel" class="col-sm-4 col-form-label">Společnost:</label>
+          <label for="q3" class="col-sm-4 col-form-label">Společnost:</label>
           <div class="col-sm-4">
-            <select class="form-control" name="spolecnost" id="spolecnost">
+            <select class="form-control" name="spolecnost" id="q3">
               <option>Riot Games</option>
               <option>Wargaming.net</option>
               <option selected>Erik corporated</option>
@@ -92,9 +94,9 @@
         <hr>
         <p class="alert alert-dark otazka">4. Kolik národů se ve hře nachází?</p>
         <div class="form-group row">
-          <label for="vydavatel" class="col-sm-4 col-form-label">Počet národů:</label>
+          <label for="q5" class="col-sm-4 col-form-label">Počet národů:</label>
           <div class="col-sm-4">
-            <select class="form-control" name="pocet" id="pocet">
+            <select class="form-control" name="pocet" id="q5">
               <option>13</option>
               <option>10</option>
               <option selected>14</option>
@@ -107,11 +109,11 @@
         <p class="alert alert-dark otazka">5. Který národ má ve hře nejvíce tanků ?
         </p>
         <div class="form-group row">
-          <label for="karta" class="col-md-3 col-form-label">Odpověď:</label>
+          <label for="q6" class="col-md-3 col-form-label">Odpověď:</label>
           <div class="col-md-6">
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="karty" id="sssr" value="checkedValue">
+                <input class="form-check-input" type="radio" name="karty" id="q6" value="checkedValue">
                 SSSR
               </label>
             </div>
@@ -123,7 +125,7 @@
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="karty" id="nemecko" value="checkedValue">
+                <input class="form-check-input" type="radio" name="karty" id="nemecko"  value="checkedValue">
                 Německo
               </label>
             </div>
@@ -139,32 +141,31 @@
         <hr>
         <p class="alert alert-dark otazka">6. Například které národy mají třídu dělostřelectva?</p>
         <div class="form-group row">
-          <label for="delostrelectvo" class="col-md-3 col-form-label">Národy s dělostřelectvem:</label>
+          <label for="q7" class="col-md-3 col-form-label">Národy s dělostřelectvem:</label>
           <div class="col-md-6">
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="francie" id="francie" value="Francie">USA
+                <input class="form-check-input" type="checkbox" name="francie" id="q7" value="USA">USA
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="svedsko" id="svedsko" value="Švédsko">Polsko
+                <input class="form-check-input" type="checkbox" name="svedsko" id="poland" value="Poland">Polsko
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="italie" id="italie" value="Itálie">Itálie
+                <input class="form-check-input" type="checkbox" name="italie" id="italy" value="Italy">Itálie
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="nemecko" id="nemecko" value="Německo">SSSR
+                <input class="form-check-input" type="checkbox" name="nemecko" id="USSR" value="SSSR">SSSR
               </label>
             </div>
           </div>
         </div>
         <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved4">USA, SSSR
-        </p>
         </p>
         <hr>
         <div class="form-group row">
@@ -181,37 +182,37 @@
         </p>
         <hr>
         <div class="form-group row">
-          <label for="" class="col-sm-3 col-form-label">Jméno ve hře:</label>
+          <label for="q12" class="col-sm-3 col-form-label">Jméno ve hře:</label>
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="odpoved" id=".odpoved">
+            <input type="text" class="form-control" name="odpoved" id="q12">
           </div>
         </div>
         <hr>
         <div class="form-group row">
-          <label for="" class="col-sm-3 col-form-label">E-mail:</label>
+          <label for="q13" class="col-sm-3 col-form-label">E-mail:</label>
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="odpoved" id=".odpoved">
+            <input type="text" class="form-control" name="odpoved" id="q13">
           </div>
         </div>
         <hr>
         <div class="form-group row">
-          <label for="" class="col-sm-3 col-form-label">Adresa:</label>
+          <label for="q14" class="col-sm-3 col-form-label">Adresa:</label>
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="odpoved" id=".odpoved">
+            <input type="text" class="form-control" name="odpoved" id="q14">
           </div>
         </div>
         <hr>
         <div class="form-group row">
-          <label for="" class="col-sm-3 col-form-label">Bydliště:</label>
+          <label for="q15" class="col-sm-3 col-form-label">Bydliště:</label>
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="odpoved" id=".odpoved">
+            <input type="text" class="form-control" name="odpoved" id="q15">
           </div>
         </div>
         <hr>
         <div class="form-group row">
-          <label for="" class="col-sm-3 col-form-label">Číslo kreditní karty : )</label>
+          <label for="q16" class="col-sm-3 col-form-label">Číslo kreditní karty : )</label>
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="odpoved" id=".odpoved">
+            <input type="text" class="form-control" name="odpoved" id="q16">
           </div>
         </div>
         <hr>
@@ -240,7 +241,6 @@
           href="https://worldoftanks.eu/cs/game/download/" target="_blank" class="footerodkazy"><i
             class="fa fa-download fa-3x" aria-hidden="true"></i></a>
       </div>
-    </div>
     </div>
   </footer>
 

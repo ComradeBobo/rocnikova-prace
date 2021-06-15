@@ -43,8 +43,9 @@ body {
   }
   h4 {
     text-align: left;
-    border-top: black solid 3px;
+    border-top: rgb(255, 255, 255) solid 3px;
     padding-left: 10px;
+    padding-top: 10px;
   }
   h5 {
     padding-left: 10px;
@@ -92,6 +93,12 @@ a.footerodkazy:hover{
   max-width: 400px;
   height: auto;
 }
+.sus {
+text-align: center;
+margin-top: 2%;
+border-bottom: rgb(255, 255, 255) solid 3px;
+padding-bottom: 2%;
+}
 .box {
   background-image: linear-gradient(160deg, #2c2d2ece, #0000009f);
   border: 2px solid rgb(255, 255, 255);
@@ -113,6 +120,14 @@ a.footerodkazy:hover{
 .bruh {
   text-align: center;
   color: white;
+}
+.notime{
+  text-align: center;
+}
+.oprava {
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .card-header {
   background-color: rgb(78, 78, 78) !important;

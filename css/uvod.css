@@ -22,7 +22,11 @@ h2 {
   padding-top: 10px;
   padding-bottom: 3%;
 
-}body {
+}
+h4 {
+  text-align: center;
+}
+body {
   background-image: url(../img/7.jpg);
   background-position: top;
   background-attachment: fixed;
@@ -84,6 +88,7 @@ iframe {
 }
 p {
   padding-left: 20px;
+  padding-right: 20px;
 }
   a.footerodkazy{
     color: rgb(255, 0, 0)!important;

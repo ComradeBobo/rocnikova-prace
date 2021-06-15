@@ -12,6 +12,12 @@ p {
     padding-left: 10px;
     padding-right: 10px;
 }
+.odsazeni {
+  padding-left: 105px;
+}
+.odsazeni2 {
+  padding-left: 115px;
+}
 body {
     background-image: url(../img/bckgS.jpg);
     background-position: center;
@@ -43,8 +49,9 @@ body {
   }
   h4 {
     text-align: left;
-    border-top: black solid 3px;
+    border-top: rgb(255, 255, 255) solid 3px;
     padding-left: 10px;
+    padding-top: 10px;
   }
   h5 {
     padding-left: 10px;
@@ -76,11 +83,6 @@ a.footerodkazy{
 a.footerodkazy:hover{
   color: rgb(136, 0, 11)!important;
 }
-img {
-  float: right;
-  margin-left: 10px;
-  margin-right: 15px;
-}
 .box {
   background-image: linear-gradient(160deg, #2c2d2ece, #0000009f);
   border: 2px solid rgb(255, 255, 255);
@@ -102,6 +104,16 @@ img {
 .bruh {
   text-align: center;
   color: white;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.ikonka {
+  float: left;
+  margin-right: 5px;
+  border: 2px solid white;
 }
 .card-header {
   background-color: rgb(78, 78, 78) !important;
